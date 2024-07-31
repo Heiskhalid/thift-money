@@ -1,0 +1,99 @@
+.head span{
+    color: purple;
+    gap: 10px;
+}
+.flex-c{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.header2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.green{
+    color: green !important;
+}
+.logo img{
+    padding-left: 5%;
+    width: 70px;
+}
+.flex-us{
+    display: flex;
+    gap: 60%;
+}
+.flex{
+    display: flex;
+    gap: 20%;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex a{
+    text-decoration: none;
+    padding: 1px 4px 1px 4px;
+}
+.flex a:hover{
+    background-color: aqua;
+}
+.flex button{
+    border: 3cm;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+.center h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.center p{
+    text-align: center;
+}
+.oshi{
+    width: 900px;
+}
+
+.center button{
+    padding: 11px 20px 11px 20px;
+    border-radius: 25px;
+    background-color: rgb(77, 36, 139);
+    color: #fff;
+    border: 0px;
+}
+
+.behind{
+    background-color: green  !important;
+    object-position: 2%;
+}
+
+.body-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-2 h1{
+    font-size: 32px;
+}
+
+.row{
+    padding: 3% 0 0 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
