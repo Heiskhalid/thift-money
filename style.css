@@ -1,4 +1,89 @@
-.head span{
+.logo img{
+    padding-left: 5%;
+    width: 70px;
+}
+
+.flex{
+    padding: 0 3% 3% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-a{
+    display: flex;
+    margin-left: 0%;
+   gap: 35%;
+}
+
+.flex-a a{
+    text-decoration: none;
+    color: black;
+}
+.flex-a a:hover{
+    color: rgb(3, 240, 58);
+}
+
+.fish button{
+             padding: 10px 20px;
+            
+            color: #fff;
+            background-color: #2433a4;
+            border: none;
+            border-radius: 25px;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+  }
+
+  .fish button:hover{
+    background-color: rgb(3, 240, 58);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .head span{
     color: purple;
     gap: 10px;
 }
@@ -96,4 +181,4 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+} */
