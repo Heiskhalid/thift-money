@@ -93,8 +93,51 @@
     height: 550px;
 }
 
+.col{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.bigger h1{
+    font-size: 40px ;
+}
 
+.flex-c{
+    display: flex;
+    align-items: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.stay-within{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+}
+
+.stay-within span{
+    text-align: center;
+}
+
+.stay-within button{ 
+    margin-top: 6%;
+    padding: 10px 10px 10px 10px;
+    color: #000000;
+    background-color:  transparent;
+    border-style: double;
+    border: 0.1rem solid #000000;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.stay-within button:hover{
+    background-color: #16b311;
+     }
 
 
 
