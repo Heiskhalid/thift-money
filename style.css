@@ -141,6 +141,27 @@
 
 
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-footer{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.list-footer a{
+text-decoration: none;
+    color: #757575;
+}
+
+
+footer{
+    padding: 5%;
+}
+
 
 
 
