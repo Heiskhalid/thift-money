@@ -163,6 +163,59 @@ footer{
 }
 
 
+/* mobile View */
+@media (max-width: 480px) {
+
+    .flex-b{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+
+    }
+    .spread{
+        text-align: center;
+        width: 700px;
+    }
+
+    .spread p {
+        width: 700px;
+        font-size: 42px;
+        height: fit-content;
+
+}
+.spread h2 {
+    width: 700px;
+    margin-top: 0px;
+    font-size: 88px;
+    margin-bottom: 0px;
+}
+
+.spread h2 span{
+    color: #16b311;
+}
+
+.spread h4 {
+    color: purple;
+    font-size: 34px;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.spread button {
+    margin-bottom: 60px;
+    padding: 20px 40px;
+    font-size: 31px;
+    color: #fff;
+    background-color: #2433a4;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 10px 10px 0 0 #16b311;
+    transition: background-color 0.5s ease-in-out;
+}
+
 
 
 
